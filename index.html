@@ -411,8 +411,8 @@
           <div class="fix-8-12">
             <h1 class="ae-1 smallest margin-bottom-2">Contact & Feedback</h1>
             <p class="ae-2 large margin-bottom-2"><span class="opacity-8">Contact us and provide feedback using this form.</span></p>
-            <a class="button rounded blue margin-top-1 ae-5 fromCenter" href="https://forms.gle/U8SeUh9F8THEbRaQ6">Contact & Feedback Form</a>
             <!--
+            <a class="button rounded blue margin-top-1 ae-5 fromCenter" href="https://forms.gle/U8SeUh9F8THEbRaQ6">Contact & Feedback Form</a>
           <a class="button rounded white margin-top-1 ae-6 fromCenter">Learn More</a>
         -->
 
@@ -421,10 +421,15 @@
 
               <!-- It looks like you are creating a contact form. These email and subject fields are special -->
               <!-- See https://pageclip.co/docs#special-fields for more info -->
-              <input type="email" class="input-12 rounded ae-5 fromLeft" name="email" placeholder="roscoe@example.com" />
-              <input type="text" class="input-12 rounded ae-5 fromLeft" name="subject" placeholder="A contact subject" />
-
+              <input type="text" class="input-12 rounded ae-5 fromLeft" name="name" placeholder="Name"/>
+              <br>
+              <input type="email" class="input-12 rounded ae-5 fromLeft" name="email" placeholder="Email address" />
+              <br>
+              <input type="text" class="input-12 rounded ae-5 fromLeft" name="subject" placeholder="Subject" />
+              <br>
+              <textarea class="input-12 rounded ae-5 fromLeft" name="body" placeholder="Message"></textarea>
               <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+              <br>
               <button type="submit" class="button blue rounded ae-7 fromCenter" class="pageclip-form__submit">
                 <span>Send</span>
               </button>
