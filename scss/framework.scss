@@ -19,7 +19,7 @@ html {
 
 body {
 	width: 100%;
-	height: 100%; 
+	height: 100%;
 }
 
 html, body {
@@ -856,7 +856,7 @@ svg {
 
 		@include inputPlaceholder(#242424, 400, 0.5);
 	}
-	
+
 	input[type="text"],
 	input[type="name"],
 	input[type="email"],
@@ -866,7 +866,7 @@ svg {
 	select {
 		height:52px;
 		//line-height:50px;
-		padding: 0 16px; 
+		padding: 0 16px;
 	}
 
 	textarea {
@@ -2196,12 +2196,12 @@ html.mobile .showForMobileInline {
 	/* Navigation style = numbers */
 
 	&.numbers{
-		ul { 
+		ul {
 		  counter-reset: item;
 		  list-style-type: none;
 		}
 		li { display: block; }
-		li:after { 
+		li:after {
 		  content: counter(item);
 		  counter-increment: item;
 		  background: none !important;
