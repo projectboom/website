@@ -126,7 +126,6 @@
   <div class="content">
     <a href="projectboom.org" class="logo"><!--<svg width="100" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>--><h1>Project Boom</h1></a>
     <ul class="mainMenu margin-top-3">
-      <li><a href="/">Home</a></li>
       <li><a href="/donate">Donate</a></li>
       <li><a href="/request">Request</a></li>
       <li><a href="https://projectboomorg.square.site">Store</a></li>
@@ -155,12 +154,53 @@
       <div class="wrap">
 
         <div class="fix-8-12">
-          <h1 class="ae-1 smallest margin-bottom-2">Just one note...</h1>
+          <h1 class="ae-1 smallest margin-bottom-2">Just one note before continuing...</h1>
           <p class="ae-2 large margin-bottom-2"><span class="opacity-8">We are currently waiting for incorporation as a nonprofit and 501(c)(3) status. Until we get that items that are "donated" are sold to Kunal Botla at $0.00. Upon reciving the item an invoce will be emailed to the email provided completing the sale from you to Kunal Botla.</span></p>
-          <a class="button rounded blue margin-top-1 ae-5 fromCenter" href="https://forms.gle/88JQD33cVoxtnfWq5">Continue to the form</a>
+          <a class="button rounded blue margin-top-1 ae-5 fromCenter" href="#form">Continue to the form</a>
           <!--
           <a class="button rounded white margin-top-1 ae-6 fromCenter">Learn More</a>
         -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- White Slide 4 (#11) -->
+<section class="slide whiteSlide">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-8-12">
+          <h1 class="ae-1 smallest margin-bottom-2" name="form">Here's the form...</h1>
+          <p class="ae-2 large margin-bottom-2"><span class="opacity-8">Make donations using this form.</span></p>
+          <!--
+          <a class="button rounded blue margin-top-1 ae-5 fromCenter" href="https://forms.gle/U8SeUh9F8THEbRaQ6">Contact & Feedback Form</a>
+        <a class="button rounded white margin-top-1 ae-6 fromCenter">Learn More</a>
+      -->
+
+          <form action="https://send.pageclip.co/C0oDq95TOvyr2ueXsO68FzSi02gpT5ej/contact" class="slides-form" class="pageclip-form" method="post">
+            <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+
+            <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+            <!-- See https://pageclip.co/docs#special-fields for more info -->
+            <input type="text" class="input-12 rounded ae-5 fromLeft" name="name" placeholder="Name"/>
+            <br>
+            <input type="email" class="input-12 rounded ae-5 fromLeft" name="email" placeholder="Email address" />
+            <br>
+            <input type="text" class="input-12 rounded ae-5 fromLeft" name="subject" placeholder="Subject" />
+            <br>
+            <textarea class="input-12 rounded ae-5 fromLeft" name="body" placeholder="Message"></textarea>
+            <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+            <br>
+            <button type="submit" class="button blue rounded ae-7 fromCenter" class="pageclip-form__submit">
+              <span>Send</span>
+            </button>
+          </form>
+
         </div>
 
       </div>
