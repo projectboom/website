@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160185874-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160185874-6');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -424,7 +438,7 @@
 
               <!-- It looks like you are creating a contact form. These email and subject fields are special -->
               <!-- See https://pageclip.co/docs#special-fields for more info -->
-              <input type="text" class="input-12 rounded ae-5 fromLeft" name="name" placeholder="Name"/>
+              <input type="text" class="input-12 rounded ae-5 fromLeft" name="name" placeholder="Name" />
               <br>
               <input type="email" class="input-12 rounded ae-5 fromLeft" name="email" placeholder="Email address" />
               <br>
