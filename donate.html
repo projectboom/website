@@ -321,14 +321,63 @@
             </form>
 
             <form action="https://send.pageclip.co/C0oDq95TOvyr2ueXsO68FzSi02gpT5ej/donation" class="pageclip-form" method="post">
-              <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-              <input type="text" name="name" value="Roscoe Jones" />
-              <input type="email" name="email" value="roscoe@example.com" />
+              <!-- text field -->
+              <input type="email" name="email" value="bob@omg.com" />
 
-              <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-              <button type="submit" class="pageclip-form__submit">
-                <span>Send</span>
+              <select name="heardFrom">
+                <option value="ph" selected>Product Hunt</option>
+                <option value="hn">Hacker News</option>
+              </select>
+
+              <!-- radio buttons -->
+              <input type="radio" name="animal" value="tarantula" id="tarantula" checked />
+              <label htmlFor="tarantula">Tarantula</label>
+
+              <input type="radio" name="animal" value="turtle" id="turtle" />
+              <label htmlFor="turtle">Turtle</label>
+
+              <!-- checkboxes -->
+              <input type="checkbox" name="likes[pizza]" id="pizza" checked />
+              <label htmlFor="pizza">Pizza 🍕</label>
+
+              <input type="checkbox" name="likes[yams]" id="yams" />
+              <label htmlFor="yams">Sweet Potatos 🍠</label>
+
+              <!-- hidden inputs -->
+              <input type="hidden" name="version" value="v1" />
+              <button class="pageclip-form__submit" type="button">
+                <span>Submit</span>
               </button>
+            </form>
+
+            <form class="pageclip-form" method="post" action="https://send.pageclip.co/yYo14hdvw3pSIJi1Y6maW1LFR7gOAUaI/homepage-example" data-reactid="184">
+              <div class="form-group" data-reactid="185"><label data-reactid="186">Your Email</label><input type="email" class="form-control" name="email" placeholder="ernie.foddlepock@theinternet.com" required="" data-reactid="187"></div>
+              <div class="form-group" data-reactid="188"><label data-reactid="189">How did you hear about us?</label>
+                <div class="dropdown form-control" data-reactid="190"><select name="heard" required="" data-reactid="191">
+                    <option value="" data-reactid="192">I don't remember</option>
+                    <option value="ph" data-reactid="193">Product Hunt</option>
+                    <option value="hn" data-reactid="194">Hacker News</option>
+                    <option value="human" data-reactid="195">Another Human</option>
+                    <option value="surftho" data-reactid="196">Internet Surfing 🏄</option>
+                    <option value="dream" data-reactid="197">It came to me in a dream</option>
+                    <option value="jingle" data-reactid="198">A sweet radio jingle</option>
+                    <option value="probablywayne" data-reactid="199">The weird naked indian</option>
+                  </select></div>
+              </div>
+              <div class="form-group" data-reactid="200"><label data-reactid="201">Your Spirit Animal</label>
+                <div class="check-option" data-reactid="202"><input type="radio" name="animal" value="tarantula" id="tarantula" required="" data-reactid="203"><label for="tarantula" data-reactid="204">Tarantula</label></div>
+                <div class="check-option" data-reactid="205"><input type="radio" name="animal" value="nohaircat" id="nohaircat" required="" data-reactid="206"><label for="nohaircat" data-reactid="207">Hairless Cat</label></div>
+                <div class="check-option" data-reactid="208"><input type="radio" name="animal" value="turtle" id="turtle" required="" data-reactid="209"><label for="turtle" data-reactid="210">Turtle</label></div>
+                <div class="check-option" data-reactid="211"><input type="radio" name="animal" value="big-turtle" id="big-turtle" required="" data-reactid="212"><label for="big-turtle" data-reactid="213">Big Turtle</label></div>
+                <div class="check-option" data-reactid="214"><input type="radio" name="animal" value="sea-eel" id="sea-eel" required="" data-reactid="215"><label for="sea-eel" data-reactid="216">Scary Deep-Sea Eel</label></div>
+              </div>
+              <div class="form-group" data-reactid="217"><label data-reactid="218">Stuff you like</label>
+                <div class="check-option" data-reactid="219"><input type="checkbox" name="likes[pizza]" id="pizza" data-reactid="220" value="on"><label for="pizza" data-reactid="221">Pizza 🍕</label></div>
+                <div class="check-option" data-reactid="222"><input type="checkbox" name="likes[yams]" id="yams" data-reactid="223" value="on"><label for="yams" data-reactid="224">Sweet Potatos 🍠</label></div>
+                <div class="check-option" data-reactid="225"><input type="checkbox" name="likes[tacos]" id="tacos" data-reactid="226" value="on"><label for="tacos" data-reactid="227">Tacos 🌮</label></div>
+                <div class="check-option" data-reactid="228"><input type="checkbox" name="likes[soccer]" id="soccer" data-reactid="229" value="on"><label for="soccer" data-reactid="230">Soccer 🏈</label></div>
+                <div class="check-option" data-reactid="231"><input type="checkbox" name="likes[loudnoises]" id="loudnoises" data-reactid="232" value="on"><label for="loudnoises" data-reactid="233">Loud Noises 🔊</label></div>
+              </div><input type="hidden" name="version" value="v1" data-reactid="234"><button class="button button_cta pageclip-form__submit" type="submit" data-reactid="235"><span data-reactid="236">Let us Know</span></button>
             </form>
 
           </div>
